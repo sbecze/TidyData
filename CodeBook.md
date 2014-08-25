@@ -1,13 +1,20 @@
-Codebook for HAR_Dataset_tidy.txt
+Codebook
 ========
 
+> for HAR_Dataset_tidy.txt
 
 Variable list
 -------------
 
-- ActivityCode       
-- ActivityName
+- ActivityCode, ActivityName
+  + 1 WALKING
+  + 2 WALKING_UPSTAIRS
+  + 3 WALKING_DOWNSTAIRS
+  + 4 SITTING
+  + 5 STANDING
+  + 6 LAYING
 - Subject
+  + Subject code in 1:30 range
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
